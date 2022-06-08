@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batch Rename</title>
+    <script src="./../lib/csinterface.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="field field--operator">
+            <label for="operator">Operator:</label>
+            <select name="operator" class="input input--select input--operator">
+                <option value="" disabled selected>Please select:</option>
+                <option value="1">Search & Replace</option>
+                <option value="2">Prepend</option>
+                <option value="3">Append</option>
+            </select>
+        </div>
+
+        <div class="field field--text">
+            <label for="text" class="label label--search">Text:</label>
+            <input type="text" name="text" class="input input--text input--search" />
+        </div>
+
+        <div class="field field--replace">
+            <label for="replace" class="label label--replace">Replace:</label>
+            <input type="text" name="replace" class="input input--text input--replace" />
+        </div>
+
+        <div class="field field--digits">
+            <label for="digits" class="label label--digits">Number of Digits:</label>
+            <input type="number" name="digits" min="1" max="5" value="4" />
+        </div>
+
+        <div class="field field--number">
+            <label for="number">Begin numbering from:</label>
+            <input type="number" name="number" value="1" />
+        </div>
+
+        <button class="button button--execute">Execute</button>
+        <button class="button button--clear">Clear</button>
+
+        <button class="button button--refresh">Refresh</button>
+    </div>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

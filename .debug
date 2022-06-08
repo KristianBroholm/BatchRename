@@ -1,0 +1,7 @@
+<ExtensionList>
+    <Extension Id="com.kristianbroholm.BatchRename">
+        <HostList>
+            <Host Name="PPRO" Port="8080"/>
+        </HostList>
+    </Extension>
+</ExtensionList>    
