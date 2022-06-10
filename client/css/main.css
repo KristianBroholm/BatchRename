@@ -1,0 +1,27 @@
+.templateContainer {
+    display: none;
+}
+
+.section {
+    margin-bottom: 1rem;
+}
+
+.field--component {
+    padding: 1rem;
+    margin: 0 .5rem .5rem;
+    background-color: rgb(78, 78, 78);
+}
+
+.field--operation {
+    padding: 1rem;
+    margin: 0 .5rem .5rem;
+    display: flex;
+}
+
+.label {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
